@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  java-docker:
+    container_name: java-docker
+    tty: true
+    build: .
